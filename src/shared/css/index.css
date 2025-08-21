@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'react-datepicker/dist/react-datepicker.css';
+
+@font-face {
+    font-family: 'DM Sans';
+    src: url(/src/assets/fonts/DMSans-VariableFont_opsz\,wght.ttf);
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans';
+    src: url(/src/assets/fonts/DMSans-Italic-VariableFont_opsz\,wght.ttf);
+    font-weight: 100 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+main {
+    text-align: center;
+    background-size: cover;
+    background-position: 60% 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    font-family: 'DM Sans';
+    color: white;
+    text-align: center;
+    overflow-y: auto;
+}
+
+html {
+    background-color: #1e2022;
+    background-image: url(/public/bg.webp);
+}
+
+.bg-topogrey {
+    background-position: 60%-80%;
+    background-size: 50rem 50rem;
+}
+
+.bg-topolight {
+    background-position: 50%-80%;
+    background-size: 50rem 50rem;
+}
+
+.flex-col-1 {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
